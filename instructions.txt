@@ -1,0 +1,185 @@
+Microsoft Windows [Version 10.0.17134.472]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\users\yourusername\AppData\Roaming\npm
+The system cannot find the path specified.
+
+C:\WINDOWS\system32>firbase
+'firbase' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\system32>npm get prefix
+C:\Users\dell\AppData\Roaming\npm
+
+C:\WINDOWS\system32>cd C:\Users\dell\AppData\Roaming\npm
+
+C:\Users\dell\AppData\Roaming\npm>firebase login
+? Allow Firebase to collect anonymous CLI usage and error reporting information? (Y/n)
+
+
+C:\Users\dell\AppData\Roaming\npm>firebase.cmd login
+? Allow Firebase to collect anonymous CLI usage and error reporting information? Yes
+
+Visit this URL on any device to log in:
+https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1050049668&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+
+Waiting for authentication...
+
++  Success! Logged in as shristi.jha.gehu@gmail.com
+
+C:\Users\dell\AppData\Roaming\npm>firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dell\AppData\Roaming\npm
+
+? Are you ready to proceed? Yes
+? Which Firebase CLI features do you want to setup for this folder? Press Space to
+ select features, then Enter to confirm your choices.
+
+Error: Must select at least one feature. Use SPACEBAR to select features, or provide a feature with firebase init [feature_name]
+
+C:\Users\dell\AppData\Roaming\npm>firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dell\AppData\Roaming\npm
+
+? Are you ready to proceed? Yes
+? Which Firebase CLI features do you want to setup for this folder? Press Space to
+ select features, then Enter to confirm your choices. Hosting: Configure and deplo
+y Firebase Hosting sites
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Select a default Firebase project for this directory: [create a new project]
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? DemoPro
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
++  Wrote DemoPro/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+i  Writing gitignore file to .gitignore...
+
++  Firebase initialization complete!
+
+Project creation is only available from the Firebase Console
+Please visit https://console.firebase.google.com to create a new project, then run firebase use --add
+
+C:\Users\dell\AppData\Roaming\npm>firebase deploy
+
+Error: No project active. Run with --project <projectId> or define an alias by
+running firebase use --add
+
+C:\Users\dell\AppData\Roaming\npm>firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dell\AppData\Roaming\npm
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+? Are you ready to proceed? No
+
+Error: Aborted by user.
+
+Having trouble? Try firebase init --help
+
+C:\Users\dell\AppData\Roaming\npm>firebase.cmd login
+Already logged in as shristi.jha.gehu@gmail.com
+
+C:\Users\dell\AppData\Roaming\npm>firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dell\AppData\Roaming\npm
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+? Are you ready to proceed? Yes
+? Which Firebase CLI features do you want to setup for this folder? Press Space to
+ select features, then Enter to confirm your choices. Hosting: Configure and deplo
+y Firebase Hosting sites
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Select a default Firebase project for this directory: best-111 (Best)
+i  Using project best-111 (Best)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? Demo
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
++  Wrote Demo/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+
+C:\Users\dell\AppData\Roaming\npm>firebase deploy
+
+=== Deploying to 'best-111'...
+
+i  deploying hosting
+i  hosting[best-111]: beginning deploy...
+i  hosting[best-111]: found 2 files in Demo
++  hosting[best-111]: file upload complete
+i  hosting[best-111]: finalizing version...
++  hosting[best-111]: version finalized
+i  hosting[best-111]: releasing new version...
++  hosting[best-111]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/best-111/overview
+Hosting URL: https://best-111.firebaseapp.com
+
+C:\Users\dell\AppData\Roaming\npm>
