@@ -1,94 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Zimozi Sample</title>
+  <title>Zimozi Assignment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
 </head>
 <body>
 
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="plain-Backgrounds1.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="plain-Backgrounds2.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="plain-Backgrounds3.jpg" alt="New York" width="1100" height="500">
+    </div>
   </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
 </div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-
-<div class="bg-img">
-  <form target="login.html" class="container">
-    <h1>Login</h1>
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit" class="btn">Login</button>
-  </form>
-</div>
-
-<div class="text-bottom">
-<h1 style="text-align:center">Hello Motu</h1>
-</div>
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 6</div>
-  <img src="nature.jpg" style="width:100%">
-  <div class="text">Nature</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 6</div>
-  <img src="snow.jpg" style="width:100%">
-  <div class="text">Snow</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 6</div>
-  <img src="mountains.jpg" style="width:100%">
-  <div class="text">Mountains</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">4 / 6</div>
-  <img src="light.jpg" style="width:100%">
-  <div class="text">Peace</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">5 / 6</div>
-  <img src="free.jpg" style="width:100%">
-  <div class="text">Free</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">6 / 6</div>
-  <img src="stone.jpg" style="width:100%">
-  <div class="text">Peace</div>
-</div>
-
-</div>
+<div style="padding:0px 50px 20px 50px">
+<div class="text-bottom" style="background-color:#E8E8E8  ">
 <br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+<h1 style="text-align:left">Zimozi</h1>
+<h2<h1 style="text-align:left">We commit to simplify everything we do</h2>
+<br>
+<br>
+</div>
 </div>
 
-<div class="text-bottom">
-<h1 style="text-align:center">Kaisi Lga ye...:)</h1>
-</div>
-
-<script src="myscript.js"></script>
 </body>
-</html> 
+</html>
